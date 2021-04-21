@@ -2649,14 +2649,17 @@ input, select, textarea {
 
 			#main > section {
 				padding: 2em 0;
+				background-attachment: scroll;
 			}
 
 			#main section.cover {
-				padding: 0em 0em;
+				padding: 4em 0em;
+				background-attachment: scroll;
 			}
 
 				#main section.cover header {
 					padding: 0 1em;
+					background-attachment: scroll;
 				}
 
 		/* Footer */
