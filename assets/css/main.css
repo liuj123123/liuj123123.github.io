@@ -2267,6 +2267,8 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #646464;
 				background-image: url("../../images/banner.jpg");
+				background-attachment: fixed;
+				background-repeat: no-repeat;
 				text-align: left;
 			}
 
@@ -2274,16 +2276,34 @@ input, select, textarea {
 				background-color: #444444;
 			}
 
-			#main > section.three {
+			#main > section.three { /*experience */
 				background-color: #646464;
+				background-image: url("../../images/VancouverWide.jpg");
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				width: 100%;
 			}
 
-			#main > section.four {
+			#main > section.four { /*skills */
 				background-color: #444444;
 			}
 
-			#main > section.five {
+			#main > section.five { 
 				background-color: #646464;
+				background-image: url("../../images/lightGreyLines.png");
+				background-attachment: fixed;
+				background-size: cover;
+				background-position: center center;
+			}
+			
+			#main > section.six { 
+				/* background-color: #646464; */
+				background-color: #646464;
+				background-image: url("../../images/banner.jpg");
+				background-attachment: fixed;
+				background-size: cover;
+				background-position: center center;
+				padding-top: 6em;
 			}
 
 /* Wide */
