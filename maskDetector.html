@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>James Z Liu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">James Z Liu</h1>
+							<p>Mechatronic Systems Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="index.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="mailto:liuj123123@gmail.com?subject=I saw your GitHub Pages Portfolio" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/jameszliu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</a></span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<li><a href="https://github.com/liuj123123" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h4 class="alt"><strong>James Zhong Sheng Liu </strong></h4>
+								<h5 class="alt"><strong>Mechatronic Systems Engineer</strong></h5>
+								<!-- <p>Welcome to my online portfolio.<br />
+								</p> -->
+							</header>
+
+							
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Machine Learning OpenCV: Mask Detector</h2>
+							</header>
+							<article class="item">
+								<a class="image fit"><img src="images/maskRecording.gif" width="700" alt="" /></a>
+								<header>
+									<h3>Demo of working mask detector
+									</h3>
+								</header>
+							</article>
+							<p style="text-align:justify;"> With the COVID-19 global pandemic on our 
+								minds, my lab partner (Paul Schellenberg) and I decided to train 
+								a machine learning model to detect a face mask. Our model uses python-based
+								<a href="https://pypi.org/project/opencv-python/">OpenCV</a> and 
+								<a href="https://www.tensorflow.org/api_docs/python/tf">TensorFlow</a> to create 
+								predictions based on the input video stream, as shown above.
+							</br>
+							</p>
+							<article class="item">
+								<a class="image fit"><img src="images/maskImagesExamples.jpg" width="700" alt="" /></a>
+								<header>
+									<h3>Example Images of Training Set: with_mask & without_mask</h3>
+								</header>
+							</article>
+							<p style="text-align:justify;"> The model pulls on 1374 images sectioned into 
+								two categories: with_mask or without_mask. Then, the images in each 
+								category are split into a training set and a testing set at a ratio 
+								of 80:20 (training:testing). The training set is used to generate the 
+								prediction model based on a Convolutional Neural Network running 20 Epochs 
+								of training.
+								</br></br>
+								As the model training progresses through each Epoch, the weights are updated 
+								to 'select' the appropriate filter values. This means that as the number of 
+								Epochs increases, the model will increase in accuracy (most of the time). 
+								Another important part of our model is the pooling layers. Essentially, pooling 
+								downsamples the given input so that the model can more quickly analyze the image structure. 
+								This means that during the model implementation, it will be computationally less expensive.
+							 <p>
+							</p>
+							<article class="item">
+								<a class="image fit"><img src="images/maskCNNAccuracy.jpg" width="700" alt="" /></a>
+								<header>
+									<h3>CNN model Accuracy Over 20 Epochs of Training
+									</h3>
+								</header>
+							</article>
+							<article class="item">
+								<img src="images/CNNModelDiagram.jpg" width="400" alt="" />
+								<header>
+									<h3>CNN model diagram
+									</h3>
+								</header>
+							</article>
+							<footer>
+								<a href="index.html#portfolio" class="button scrolly">Back</a>
+							</footer>
+							
+						</div>
+					</section>
+
+				
+
+						</div>
+					</section> -->
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; James Zhong Sheng Liu. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
