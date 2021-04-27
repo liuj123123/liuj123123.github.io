@@ -1997,9 +1997,9 @@ input, select, textarea {
 	}
 	
 		.item:hover .image {
-			opacity: 0.25;
+			/* opacity: 0.25; */
 			/* background-color: rgb(255, 255, 0); */
-			transition: .5s ease;
+			/* transition: .5s ease; */
 		}
 
 		.item header {
@@ -2012,6 +2012,29 @@ input, select, textarea {
 			.item header h3 {
 				font-size: 1em;
 			}
+
+	.item1 {
+		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		margin-bottom: 40px;
+	}
+	
+		.item1:hover .image {
+			opacity: 0.25;
+			background-color: rgb(255, 255, 0);
+			transition: .5s ease;
+		}
+
+		.item1 header {
+			background: #9c9c9c;
+			margin: 0;
+			padding: 1em 0 1em 0;
+			font-size: 0.8em;
+		}
+
+			.item1 header h3 {
+				font-size: 1em;
+			}
+
 
 /* Icons */
 
@@ -2272,7 +2295,7 @@ input, select, textarea {
 				text-align: left;
 			}
 
-			#main > section.two {
+			#main > section.two { /*Portfolio */
 				background-color: #444444;
 			}
 
@@ -2285,18 +2308,19 @@ input, select, textarea {
 			}
 
 			#main > section.four { /*skills */
+				text-align: left;
 				background-color: #444444;
 			}
 
-			#main > section.five { 
+			#main > section.five {  /*About Me */
 				background-color: #646464;
-				background-image: url("../../images/lightGreyLines.png");
+				/* background-image: url("../../images/lightGreyLines.png");
 				background-attachment: fixed;
 				background-size: cover;
-				background-position: center center;
+				background-position: center center; */
 			}
 			
-			#main > section.six { 
+			#main > section.six {  /*Contact */
 				/* background-color: #646464; */
 				background-color: #646464;
 				background-image: url("../../images/banner.jpg");
