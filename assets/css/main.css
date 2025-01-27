@@ -2305,6 +2305,7 @@ input, select, textarea {
 				background-attachment: fixed;
 				background-repeat: no-repeat;
 				width: 100%;
+				background-size: cover;
 			}
 
 			#main > section.four { /*skills */
@@ -2675,7 +2676,26 @@ input, select, textarea {
 				padding: 2em 0;
 				background-attachment: scroll;
 			}
-
+			#main > section.one {
+				background-image: url("../../images/banner.jpg");
+				background-size: cover;
+				background-position: center center;
+				background-attachment: scroll;
+			}
+		
+			#main > section.three {
+				background-image: url("../../images/VancouverWide.jpg");
+				background-size: cover;
+				background-position: center center;
+				background-attachment: scroll;
+			}
+			
+			#main > section.six {
+				background-image: url("../../images/banner.jpg");
+				background-size: cover;
+				background-position: center center;
+				background-attachment: scroll;
+			}
 			#main section.cover {
 				padding: 4em 0em;
 				background-attachment: scroll;
@@ -2685,48 +2705,7 @@ input, select, textarea {
 					padding: 0 1em;
 					background-attachment: scroll;
 				}
-				#main > section.one {
-					background-color: #646464;
-					background-image: url("../../images/banner.jpg");
-					background-attachment: fixed;
-					background-repeat: no-repeat;
-					text-align: left;
-				}
-	
-				#main > section.two { /*Portfolio */
-					background-color: #444444;
-				}
 
-				#main > section.three { /*experience */
-					background-color: #646464;
-					background-image: url("../../images/VancouverWide.jpg");
-					background-attachment: fixed;
-					background-repeat: no-repeat;
-					width: 100%;
-				}
-	
-				#main > section.four { /*skills */
-					text-align: left;
-					background-color: #444444;
-				}
-	
-				#main > section.five {  /*About Me */
-					background-color: #646464;
-					/* background-image: url("../../images/lightGreyLines.png");
-					background-attachment: fixed;
-					background-size: cover;
-					background-position: center center; */
-				}
-				
-				#main > section.six {  /*Contact */
-					/* background-color: #646464; */
-					background-color: #646464;
-					background-image: url("../../images/banner.jpg");
-					background-attachment: fixed;
-					background-size: cover;
-					background-position: center center;
-					padding-top: 6em;
-				}
 		/* Footer */
 
 			#footer .copyright li {
